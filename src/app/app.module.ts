@@ -10,6 +10,7 @@ import { HttpService } from './services/http.service';
 
 import { AppComponent } from './app.component';
 import { ProfileComponent } from './components/profile/profile.component';
+import { HighlightDirective } from './highlight.directive';
 
 
 
@@ -17,6 +18,7 @@ import { ProfileComponent } from './components/profile/profile.component';
   declarations: [
     AppComponent,
     ProfileComponent,
+    HighlightDirective,
 
 
   ],
