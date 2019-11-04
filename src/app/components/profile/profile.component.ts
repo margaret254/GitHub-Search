@@ -12,8 +12,14 @@ export class ProfileComponent implements OnInit {
 
   profile: any;
   repos: any;
+  username:string;
 
   constructor(private httpService:HttpService){
+
+  }
+
+  findProfile(){
+    this.httpService.updateProfile(this.username);
     this.httpService.getProfileInfo().subscribe(profile => this.profile = profile);
 
     this.httpService.getProfileRepos().subscribe(repos => this.repos = repos);
