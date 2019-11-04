@@ -26,6 +26,7 @@ export class HttpService {
 
    }
 
+
    updateProfile(username:string ){
     this.username = username;
    }
