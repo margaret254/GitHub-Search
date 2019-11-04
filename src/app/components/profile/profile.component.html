@@ -44,10 +44,11 @@
 
             <div class="container">
                 <h3 class="repo-title">Repositories</h3>
-              <div appHighlight class="card" *ngFor="let repo of repos">
+              <div class="card" *ngFor="let repo of repos">
                 <div class="card-body">
                   <h4 class="card-title">{{repo.name}} </h4>
-                  <p class="card-text">{{repo.description}}</p>
+                  <p  appHighlight *ngIf='repo.description' class="card-text">{{repo.description}}</p>
+                  <p>This repo was completed in {{goal.completeDate|dateCount}} days ago.</p>
                   <a href="{{repo.html_url}}" target="_blank" class="btn btn-sm btn-info">View this project on Github</a>
                 </div>
                 </div>

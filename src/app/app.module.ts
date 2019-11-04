@@ -11,6 +11,7 @@ import { HttpService } from './services/http.service';
 import { AppComponent } from './app.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { HighlightDirective } from './highlight.directive';
+import { DateCountPipe } from './date-count.pipe';
 
 
 
@@ -19,6 +20,7 @@ import { HighlightDirective } from './highlight.directive';
     AppComponent,
     ProfileComponent,
     HighlightDirective,
+    DateCountPipe,
 
 
   ],
