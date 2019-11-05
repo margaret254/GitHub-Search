@@ -1,4 +1,10 @@
 .navbar{
   font-family: 'Bree Serif', serif;
   text-align: center;
+  padding-top:5px;
+  margin-top:10px;
+}
+
+.container-fluid{
+  background-color: bisque;
 }
