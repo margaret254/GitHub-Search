@@ -1,6 +1,9 @@
 .searchForm{
-  padding-top:50px;
-  padding-bottom:30px;
+  padding-top:20px;
+  padding-bottom:20px;
+  width:500px;
+  font-family: 'Bree Serif', serif;
+  
 }
 
 .profile-intro{
