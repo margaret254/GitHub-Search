@@ -12,6 +12,8 @@ import { AppComponent } from './app.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { HighlightDirective } from './highlight.directive';
 import { DateCountPipe } from './date-count.pipe';
+import { RepoComponent } from './components/repo/repo.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 
 
@@ -21,6 +23,8 @@ import { DateCountPipe } from './date-count.pipe';
     ProfileComponent,
     HighlightDirective,
     DateCountPipe,
+    RepoComponent,
+    NavbarComponent,
 
 
   ],

@@ -8,3 +8,7 @@
 .container-fluid{
   background-color: aqua;
 }
+
+.nav-item{
+  display: inline-block;
+}
